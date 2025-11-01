@@ -1,0 +1,48 @@
+main  {
+    width: 50vw;
+    margin: auto;
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+
+#Título1 {
+    color: rgb(242, 242, 242);
+    background-color: rgb(0, 102, 143);
+    
+}
+
+.Texto-Título1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 102, 143);
+}
+
+
+#Título2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 255, 0);
+    
+}
+
+.Texto-Título2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 234, 0);
+}
+
+
+#Título3 {
+    color: rgb(212, 212, 212);
+    background-color: rgb(255, 0, 0);
+    
+}
+
+.Texto-Título3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 12, 12);
+}
+
+

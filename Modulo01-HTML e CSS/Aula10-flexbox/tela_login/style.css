@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100vw;
+
+}
+
+main {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#img-tela-grande , #img-tela-media {
+    display: none;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    background-color: rgb(165, 163, 163);
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(0, 128, 255);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40vw;
+        height: 60vh;
+    }
+
+    #img-tela-media {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+}

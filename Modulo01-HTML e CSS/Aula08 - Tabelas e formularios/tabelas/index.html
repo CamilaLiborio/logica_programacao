@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="style/main.css">
+    <title>Tabelas HTML</title>
+</head>
+
+<style>
+    body {
+        background-color: rgba(88, 184, 253, 0.302);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3.0em;
+        letter-spacing: 2px;
+        color: aliceblue;
+        margin: 15px;
+        margin-top: 30px;
+        text-shadow: 3px 5px 8px rgb(0, 0, 0);
+        
+    }
+
+    header {
+        padding: 15px;
+        background-color:  rgb(0, 83, 151);
+
+    }
+
+    table {
+        margin: auto;
+        margin-top: 30px;
+        width: 60vw;
+        border-collapse: collapse;
+    }
+
+
+    tfoot td {
+        color: white;
+        background-color: rgb(2, 97, 174);
+    }
+    th, td {
+        
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        border: 2px solid black;
+        padding: 5px 5px;
+        text-shadow: 3px 5px 8px rgba(0, 0, 0, 0.297);
+    }
+
+    th {
+        background-color:  rgb(2, 98, 177);
+        color: white;
+    }
+
+    .logo-time {
+        height: 26px;
+    }
+
+    
+</style>
+ 
+<body>
+    <header>
+    <h1>BRASILEIRÃO 2025</h1>
+    </header>
+    <table>
+        <!-- Cabeçalho -->
+        <thead>
+            <tr>
+                <th colspan="2">Clubes</th>
+                <th>Pontos</th>
+                <th>Partidas</th>
+            </tr>
+        </thead>   
+        
+        <tbody>
+            <tr>
+                <!-- Coluna mesclada / duas colunas dentro de uma -->
+                <td><img class="logo-time" src="imagens/flamengo.png" alt=""></td>
+                <td>Flamengo</td>
+                <td>47</td>
+                <td>21</td>
+            </tr>
+ 
+            <tr>
+                <td><img class="logo-time" src="imagens/cruzeiro.png" alt="" ></td>
+                <td>Cruzeiro</td>
+                <td>44</td>
+                <td>22</td>
+            </tr>
+ 
+            <tr>
+                <td><img class="logo-time" src="imagens/palmeiras.png" alt="" ></td>
+                <td>Palmeiras</td>
+                <td>43</td>
+                <td>20</td>
+            </tr>
+ 
+            <tr>
+                <td><img class="logo-time" src="imagens/bahia.png" alt="" ></td>
+                <td>Bahia</td>
+                <td>36</td>
+                <td>20</td>
+            </tr>
+ 
+            <tr>
+                <td><img class="logo-time" src="imagens/botafogo.png" alt="" ></td>
+                <td>Botafogo</td>
+                <td>35</td>
+                <td>20</td>
+            </tr>
+ 
+            <tr>
+                <td><img class="logo-time" src="imagens/mirassol.png" alt="" ></td>
+                <td>Mirassol</td>
+                <td>35</td>
+                <td>20</td>
+            </tr>
+ 
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">2025@ Camila e Maylon</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+ 
+</html>
