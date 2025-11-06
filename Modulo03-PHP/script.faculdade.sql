@@ -14,6 +14,3 @@ nota_final DECIMAL (5,2) NOT NULL DEFAULT 0
 );
 
 SELECT*FROM usuarios;
-
-DELETE*FROM usuarios
-WHERE nome = "camiola";
