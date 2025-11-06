@@ -19,7 +19,7 @@
         </nav>
     </header>
 
-    <main>
+    <main> <!--formulario-->
         <form action="cadastro.php" method="POST">
             <h2>Cadastro de Aluno</h2>
 

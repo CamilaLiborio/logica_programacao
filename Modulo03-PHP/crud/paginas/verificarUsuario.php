@@ -37,7 +37,7 @@
                 // include = conexão com os dados cadastrados no cadastro.php
                 $email = $_POST["email"];
 
-                $sql = "SELECT * FROM usuario WHERE email = ?";
+                $sql = "SELECT * FROM usuarios WHERE email = ?";
                 $stmt = $conn->prepare($sql);
                 // Conexão com o banco de dados
 
